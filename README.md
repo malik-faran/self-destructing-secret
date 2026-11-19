@@ -4,6 +4,7 @@
 
 A compact, production-minded secret-sharing app: **FastAPI + SQLite + Fernet encryption** on the backend, **React + Vite + Tailwind** on the frontend. No accounts, no plaintext at rest, no second chance.
 
+[![CI](https://github.com/malik-faran/self-destructing-secret/actions/workflows/ci.yml/badge.svg)](https://github.com/malik-faran/self-destructing-secret/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=0b0f14)](https://react.dev/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -326,7 +327,7 @@ cd frontend
 npm run build
 ```
 
-The included `.github/workflows/ci.yml` runs both jobs on every push and pull request. Publishing workflow files requires a GitHub token with the `workflow` scope.
+CI (`.github/workflows/ci.yml`) runs both jobs on every push and pull request.
 
 ---
 
